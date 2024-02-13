@@ -1,0 +1,114 @@
+@import url("reset.css");
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+body {
+    font-family:'Nunito', Arial, 'sans serif';
+    height: 100vh;
+}
+
+/* header   */
+header {
+    background-color: rgba(0, 125, 125, 0.975);
+    color: white;
+}
+ 
+h2 {
+    line-height: 60px;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+
+li + li{
+    margin-left: 10px;
+}
+
+
+/* Main  */
+main {
+    height: calc(100vh - 60px - 60.5px);
+}
+
+
+section {
+    line-height: 10px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.box {
+    
+    height: 70px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    background-color: #02101ff0;
+    color:#fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 128, 0.2);
+}
+
+.float_left {
+    float: left;
+}
+
+.align_center {
+    line-height: 75px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+} 
+
+.circle {
+    border-radius: 50%;
+    background-color: rgba(0, 125, 125, 0.975);
+    height: 35px;
+    width: 35px;
+}
+
+main div section a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main_margin {
+    margin-top: calc(100vh / 6);
+} 
+
+/* Footer */
+ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    
+    }
+
+footer {
+    line-height: 60px;
+    color: #fff;
+    background-color: rgb(0, 125, 125, 0.975);
+    height: 60px;
+}
+
+
+div ul li {
+        display: inline;
+}
+

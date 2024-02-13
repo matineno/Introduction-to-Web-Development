@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir ="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content = "Gabe">
+    <meta name = "description" content = "Webpage">
+    <meta name = "keywords" content ="html, css, web, web development, javascript">
+    <title>FormEx</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <header>
+
+    </header>
+    <main>
+        <form method = "post" name ="registration">
+            <div>
+                <p>Fields with '*' are required</p>
+                <label>First Name*</label>
+                <input type = "text" name="first-name" placeholder="John" required>
+            </div>
+            <br>
+            <div>
+                <label>Last Name*</label>
+                <input type = "text" name="last-name" placeholder="Smith" required>
+            </div>
+            <br>
+            <div>
+                <label>Quantity*</label>
+                <input type = "text" name="quantity" placeholder="Items(0-10)" value = "0" min="0" max = "10" required>
+            </div>
+            <br>
+            <div>
+                <label>Email*</label>
+                <input type = "email" name="email" placeholder="yourname@email.com" required>
+            </div>
+            <br>
+            <div>
+                <label>Phone*</label>
+                <input type = "tell" name="phone" placeholder="xxx-xxx-xxxx" required>
+            </div>
+            <div>
+                <h2>Radio Buttons</h2>
+                    <label for="language">Programing Languages</label>
+                    <p>
+                        <input type="radio" name="language"><label>HTML</label>
+                    </p>
+                    <p>
+                    <input type="radio" name="language"><label>CSS</label>
+                    </p>
+                    <p>
+                    <input type="radio" name="language"><label>Javascript</label>
+                    </p>
+            </div>
+            <div>
+                <h2>Check Boxes</h2>
+                <p>
+                    <input type="checkbox" id="vehicle-1" value="bike"></label>
+                    <label for="vehicle-1"> I have a bike</label>
+                </p>
+                <p>
+                <input type="checkbox" id="vehicle-2" value="car"></label>
+                <label for="vehicle-2"> I have a car</label>
+                </p>
+                <p>
+                <input type="checkbox" id="vehicle-3" value="boat"></label>
+                <label for="vehicle-3"> I have a boat</label>
+                </p>
+
+            </div>
+
+            </h2>
+            <div>
+                <input type="reset" value = "Clear">
+                <input type="submit" value = "Submit">
+            </div>
+
+        </form>
+
+
+
+
+    </main>
+
+
+
+    <footer></footer>
+  </body>
+</html>

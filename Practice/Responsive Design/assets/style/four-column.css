@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    max-width: 1080px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    max-width: calc(25% -10px);
+    flex: 0 0 calc(25% - 10px);
+    width: 100%;
+    height: 100px;
+}
+
+.peach {
+    background-color: peachpuff;
+
+}
+
+.gray {
+    background-color: gray;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.azure {
+    background-color: rgb(207, 249, 249)
+}
+
+
+@media (max-width:960px){
+    .box{
+        max-width: calc(50% - 10px);
+        flex: 0 0 calc(50% - 10px)
+    }
+}
+ 
+@media(max-width:680px){
+    .box{
+        max-width: calc(100% - 10px);
+        flex: 0 0 calc(100% - 10px);
+    }
+}

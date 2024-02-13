@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+.first{
+    color: red;
+}
+
+.second{
+    font-size: 20px;
+    color: green;
+}
+
+.third{
+    font-size: 26px;
+    color: purple;
+}
+
+.third{
+    font-size: 26px;
+    color: blue;
+}
+
+/* 
+DRY(Dont repeat yourself) is an important concept in the development/coding
+world. More you know, less code you write and the more elegant  */
+
+/*  ---------------------------  */
+/*    Header                     */
+/*  ---------------------------  */
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    text-align:center;
+}
+box p {
+    width: 200px;
+    height: 200px;
+    text-align:center;
+}
+
+
+.blue{
+    background-color: aqua;
+
+}
+
+.orange{
+    background-color: orange;
+}
+
+.mt-10{
+    margin-left:40px;
+}

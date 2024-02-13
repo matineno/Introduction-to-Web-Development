@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    background:#fff url('../img/dark.jpg') center / cover no-repeat;
+    color: #fff;
+    font-size:24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  text-align: center;
+}
+/* Style for the container holding the vertical list */
+
+ul {
+  margin-top: 50px;
+}
+
+  /* Style for the vertical list */
+.vertical-list {
+  list-style-type: none;
+  padding: 0;
+}
+  
+  /* Style for list items */
+.list-item {
+  line-height: 50px;
+  text-align: center;
+}
+
+.user-1 {
+  width: 100px;
+  height: 100px;
+  background: #55accb url('../img/user-blue.png') center / cover no-repeat;
+  border-radius: 50px;
+}
+
+.user-2 {
+width: 100px;
+height: 100px;
+background:#55accb url('../img/user-blue.png') center / cover no-repeat;
+border-radius: 50px;
+}
+
+.user-3 {
+width: 100px;
+height: 100px;
+background:#973f4d url('../img/user-pink.png') center / cover no-repeat;
+border-radius: 50px;
+}
+
+.kids {
+width: 100px;
+height: 100px;
+background:#c58f13 url('../img/kids.png') center / cover no-repeat;
+border-radius: 50px;
+}
+
+.add-new {
+width: 100px;
+height: 100px;
+background:#505b6d url('../img/add-new.png') center / cover no-repeat;
+border-radius: 50px;
+}
+
+
+.button {
+  background-color: #56606a;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  margin-inline: auto;
+  font-size: medium;
+  text-align: center;
+  padding: 10px;
+}

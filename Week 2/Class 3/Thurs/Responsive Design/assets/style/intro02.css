@@ -1,0 +1,114 @@
+@import url(./reset.css);
+
+
+.container {
+  width:min(100% - 30px, 1080px);
+  max-width: 1080px;
+  margin-inline: auto;
+}
+body{
+  transition: all 2.5s ease-in-out;
+  background-color: #453c4d;
+}
+
+main{
+  height:100svh;
+  display:grid;
+  place-items:center;
+
+}
+
+h1{
+  transition: all 2.5s ease-in-out;
+  font-size: 80px;
+  font-weight: 900;
+  color:#ffffff;
+}
+
+/*------------------------------------------*/
+/*       Media Queries Mobile  First        */
+/*------------------------------------------*/
+
+/* 480px width and down.*/
+@media screen and (min-width:480px){
+  
+  body{
+    background-color: #22ebeb;
+    transition: all 2.5s ease-in-out;
+  }
+  h1{
+    transition: all 2.5s ease-in-out;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width:768px){
+body{
+  background-color: #eb2291;
+  transition: all 2.5s ease-in-out;
+}
+h1{
+  transition: all 2.5s ease-in-out;
+  font-size: 60px;
+}
+}
+
+@media screen and (min-width:992px){
+body{
+  background-color: #6ceb22;
+  transition: all 2.5s ease-in-out;
+}
+h1{
+  transition: all 2.5s ease-in-out;
+  font-size: 70px;
+}
+}
+
+@media screen and (min-width:1200px){
+  body{
+    background-color: #f0f347;
+    transition: all 2.5s ease-in-out;
+  }
+  h1{
+    transition: all 2.5s ease-in-out;
+    font-size: 80px;
+  }
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

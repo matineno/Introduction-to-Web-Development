@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+    /* We dont add height to 'body'. never! */
+    height: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+.landing-page { 
+    height: 100svh;
+    /*
+    Recommended size for landing pages: 1440 × 960
+    Avoid images above 200K
+    */ 
+    background:#fff url('../media/aurora.jpg') center / cover no-repeat;
+}
+
+header {
+    height: 60px; 
+    display: flex;
+    justify-content: space-between;
+}
+.empty {
+    height: 60px;
+}
+
+header h1{
+    font-size: 22px;
+    color: #fff;
+    line-height:60px;
+}
+    
+header p {
+    font-size: 17px;
+    color: #fff;
+    line-height: 60px;
+}
+    
+section {
+    height: calc(100svh - 60px);
+    display: grid;
+    place-items: center;
+}
+
+section h2 {
+    font-size: 40px; 
+    color: #fff;
+}

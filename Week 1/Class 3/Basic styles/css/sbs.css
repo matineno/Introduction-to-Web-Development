@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Shawdows */
+
+.one{
+
+    box_shadow: 6px 6px 12px #555;
+}
+.two{
+
+    box-shadow: 0 15px 23px -10px;
+ }

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#article-id{
+    background-color: orange;
+}
+
+article{
+    background-color: aquamarine;
+}
+.article-class{
+    background-color:purple;
+}
+
+div .some-element{
+    font-size: 20px;
+}
+
+
+/* Yopu can select multiple element at the same time by seperating them with comma */
+h1, h2, h3, h4, p, strong, em, span{
+    color: black;
+}
+
+section p{
+    color: brown;
+}

@@ -1,0 +1,107 @@
+@import url("reset.css");
+
+body {
+    font-family:'Nunito', Arial, 'sans serif';
+    background-color: #f2f2f3;
+}
+
+/* header   */
+header {
+    background-color: rgba(52, 52, 52, 0.71);
+    color: white;
+}
+ 
+h2 {
+    line-height: 60px;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+.gap-30 {
+    gap: 30px;
+}
+  
+nav ul li {
+    display: inline;
+    line-height: 60px;
+}
+
+li + li{
+    margin-left: 10px;
+}
+
+
+/* Main  */
+main {
+    height: 85vh;
+}
+
+
+section{
+    line-height: 10px;
+}
+
+
+.box {
+    
+    height: 140px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-top: 30px;
+    background-color: rgb(128, 128, 128);
+    color:#fff;
+    border-radius: 5px;
+}
+
+
+.float_left {
+    float: left;
+}
+
+.align_center {
+    line-height: 140px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+} 
+
+main div section a {
+    text-decoration: none;
+    }
+    
+/* Footer */
+ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    
+    }
+
+footer {
+    line-height: 60px;
+    color: #fff;
+    background-color: rgb(128, 128, 128);
+    height: 60px;
+}
+
+
+div ul li {
+        display: inline;
+}
+

@@ -1,0 +1,100 @@
+@import url(./reset.css);
+
+
+.container {
+  width:min(100% - 30px, 1080px);
+  max-width: 1080px;
+  margin-inline: auto;
+}
+main{
+  padding:60px 0;
+}
+
+.row + .row {
+  margin-top: 60px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.flex{
+  display:flex;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #f0f1f2;
+
+}
+.flex > div{
+  width:140px;
+  height:140px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 140px;
+}
+
+.box-1{
+  background-image: linear-gradient(#bce2e9, #85d9e7);
+}
+.box-2{
+  background-color: #14ec5c;
+  background-image: linear-gradient(to right, #8bd8a5 , #14ec5c);
+
+}
+.box-3{
+  background-color: #dfa63e;
+}
+
+
+
+/*------------------------------------------*/
+/*            Flex Directions               */
+/*------------------------------------------*/
+
+
+.flex-direction-row{
+  flex-direction: row;
+}
+
+.flex-direction-reverse{
+  flex-direction: row-reverse;
+}
+
+.flex-direction-column-reverse{
+  flex-direction: column;
+}
+.flex-direction-column{
+  flex-direction: column-reverse;
+}
+.wrap{
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.nowrap{
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.col-nowrap{
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.col-wrap{
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.col{
+  height: 310px;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+

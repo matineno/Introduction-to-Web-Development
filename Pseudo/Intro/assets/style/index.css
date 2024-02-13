@@ -1,0 +1,137 @@
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Page                                                 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+:root {
+  --app-bg-dark: #1a1d28;
+  --app-red: #ff3c57;
+  --app-green: #33ab4e;
+  --app-blue: #3c57ff;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  /* 10% darker */
+  --app-blue-hover: #364ee6;
+}
+
+body {
+  background-color: var(--app-bg-dark);
+}
+
+.container {
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+}
+
+main {
+  overflow: hidden;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Form                                                 */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+h1 {
+  margin-top: 100px;
+  font-size: 2.6rem;
+  color: #fff;
+}
+
+form {
+  margin-top: 40px;
+  font-size: 0;
+}
+
+input[type=text] {
+  width: 320px;
+  height: 46px;
+  padding: 0 20px 0 42px;
+  border: 1px solid rgb(255 255 255 / 0.15);
+  border-radius: 50px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  background: rgb(255 255 255 / 0.1) url(../img/user.png) no-repeat 20px 14px;
+  background-size: 15px;
+  transition: border-color .25s ease-in-out;
+}
+
+input[type=text]:focus {
+  border: 1px solid rgb(255 255 255 / 0.35);
+}
+
+input[type="button"] {
+  margin-left: 12px;
+  width: 120px;
+  height: 46px;
+  text-align: center;
+  background-color: #3c57ff;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: .2px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .25s ease-in-out;
+}
+
+input[type="button"]:hover {
+  background-color: #3865ff;
+}
+
+article {
+  margin-top: 40px;
+}
+
+article p {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+span.orange {
+  color: #ff833c;
+}
+
+span:not(.orange) {
+  color: #57ff3c;
+}
+
+.list {
+  margin-top: 40px;
+}
+
+.list ul li {
+  font-size: 18px;
+}
+
+/*
+  The :has() pseudo-class represents an element if any of the selectors passed 
+  as parameters match at least one element. Only CSS selectors are valid in
+*/
+
+.list ul li:has(p) {
+  color: var(--app-blue);
+}
+
+.list ul li:not(:has(p)) {
+  color: var(--app-orange);
+}
+
+section {
+  margin-top: 40px;
+}
+
+section p {
+  font-size: 18px;
+  color: #fff;
+}
+
+section a {
+  font-size: 18px;
+  color: var(--app-blue);
+}

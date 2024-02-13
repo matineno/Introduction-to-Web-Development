@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+    background-color: #18171f;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+main {
+    height: 100svh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+/*-----------------------------*/
+/* Media queries Deskpot first */
+/*---------------------*/
+
+/*  1200px and down */
+@media (max-width: 1200px) {
+    body {
+        background-color: #ff833c;
+    }
+    h1{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-color: #833cff;
+    }
+    h1{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #33ab4e;
+    }
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: #3c57ff;
+    }
+    h1{
+        font-size: 40px;
+    }
+}

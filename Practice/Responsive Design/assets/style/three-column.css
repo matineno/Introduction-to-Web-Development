@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    max-width: 1080;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    max-width: calc(33.3333333% - 10px);
+    flex: 0 0 (33.3333333% - 10px);
+    width: 100%;
+    height: 100px;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.olive {
+    background-color: darkolivegreen;
+}
+
+.khaki {
+    background-color: khaki;
+}
+
+@media(max-width: 760px){
+    .box {
+        max-width: calc(50% - 10px);
+        flex: 0 0 (50% - 10px);
+    }
+    :last-of-type{
+        max-width:calc(100% - 10px);
+        flex: 0 0 calc(100% - 10px);
+      }
+}
+
+@media(max-width: 650px){
+    .box {
+        max-width: calc(100% - 10px);
+        flex: 0 0 (100% - 10px);
+    }
+}

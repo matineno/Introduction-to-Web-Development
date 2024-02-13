@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+.container {
+             width: min(100% - 30px, 1080px);
+             margin-inline: auto;
+            }
+
+h2 {
+             margin-top: 20px;
+            }
+
+ul {
+    margin-left: 20px;
+}
+
+li + li {
+    margin-top: 10px;
+}
+
+/* Picas (pc) */
+.text_size_pc {
+             font-size: 1.5pc;
+            }
+
+/* Point (pt) */
+.text_size_pt {
+    font-size: 18.05pt;
+   }
+
+/* Pixels (px) */
+.text_size_px {
+              font-size: 24px;
+            }
+
+/* em */
+.text_size_em {
+              font-size: 1.5em;
+            }
+
+/* rem */
+.text_size_rem {
+               font-size: 1.5rem;
+            }
+
+/* Percentage (%) */
+.text_size_cent {
+                font-size: 150%;
+            }
+
+/* vh */
+.text_size_vh {
+                font-size: 4vh;
+            }
+
+   
+            

@@ -1,0 +1,38 @@
+
+
+body {background-color:#917c6e;
+
+    }
+    .container{
+      width: min(100% - 30px, 1080px);
+      height: 100%;
+      margin-inline: auto;
+     }
+
+    .dark_brown{
+      background-color:#8c796a;
+     }
+header{
+  color: #FFF;
+
+}
+  h1  {
+    text-align: left;
+    margin-top:150px;
+    margin-left: 20px;
+    margin-bottom:0;
+  }
+  p  {
+    text-align: left;
+    margin-left: 20px;
+    margin-left: 20px;
+  }
+main{
+  margin-top: 0px;
+}
+form  {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top:150px;
+    }

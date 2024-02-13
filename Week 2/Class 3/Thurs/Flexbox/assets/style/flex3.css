@@ -1,0 +1,212 @@
+@import url(./reset.css);
+
+
+.container {
+  width:min(100% - 30px, 1080px);
+  max-width: 1080px;
+  margin-inline: auto;
+}
+main{
+  padding:60px 0;
+}
+
+.row + .row {
+  margin-top: 60px;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.flex{
+  display:flex;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #f0f1f2;
+
+}
+.flex > div{
+  width:140px;
+  height:140px;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 140px;
+}
+
+.box-1{
+  
+  background-image:linear-gradient(#bce2e9, #85d9e7);
+
+}
+.box-2{
+  background-color: #14ec5c;
+  background-image: linear-gradient(to right, #8bd8a5 , #14ec5c);
+
+}
+.box-3{
+  background-color: #dfa63e;
+}
+
+
+
+/*------------------------------------------*/
+/*            Flex Directions               */
+/*------------------------------------------*/
+
+
+.flex-direction-row{
+  flex-direction: row;
+}
+
+.flex-direction-reverse{
+  flex-direction: row-reverse;
+}
+
+.flex-direction-column-reverse{
+  flex-direction: column;
+}
+.flex-direction-column{
+  flex-direction: column-reverse;
+}
+.wrap{
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.nowrap{
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.col-nowrap{
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.col-wrap{
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.col{
+  height: 310px;
+  flex-direction: column;
+}
+
+
+/*------------------------------------------*/
+/*            Justify Content               */
+/*------------------------------------------*/
+
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.flex-center{
+  justify-content: center;
+  
+}
+
+
+.flex-around{
+  justify-content: space-around;
+}
+
+.flex-evenly{
+  justify-content: space-evenly;
+}
+
+.flex-between{
+  justify-content: space-between;
+}
+/*------------------------------------------*/
+/*            Place Items               */
+/*------------------------------------------*/
+
+
+.place-center{
+  display: grid;
+  place-items: center;
+}
+
+.place-end{
+  display: grid;
+  place-items:end;
+}
+
+.place-stretch{
+  display: grid;
+  place-items:stretch;
+}
+/*------------------------------------------*/
+/*            Align                         */
+/*------------------------------------------*/
+
+
+.align-flex-start{
+  height:400px;
+  align-items: flex-start;
+}
+.align-flex-end{
+  height:400px;
+  align-items: flex-end;
+}
+.align-flex-center{
+  height:400px;
+  align-items: center;
+}
+.align-flex-stretch{
+  height:400px;
+  align-items: stretch;
+
+}
+.align-flex-stretch > div{
+  height:auto;
+}
+
+
+/*------------------------------------------*/
+/*            Flex Grow and Basis           */
+/*------------------------------------------*/
+.flex-grow{
+  gap:10px;
+}
+
+.flex-grow .box-1 .box-3{
+  flex-grow:1;
+}
+
+.flex-grow .box-2{
+  flex-grow:3;
+}
+
+.grow:hover .box-2{
+  background: white url('../img/barn1.jpg') center / cover no-repeat;
+}
+
+
+.grow {
+  transition: all 0.2s ease-in-out;
+  &:hover{
+    flex-grow:3;
+    width:400px;
+    background-color: red;
+    background: white url('../img/barn1.jpg') cover/ no-repeat;
+    background-image: linear-gradient(to right, #a0acd3 , #d6464d);
+    background: white url('../img/barn1.jpg') center / cover no-repeat;
+    color:#fff;
+  }
+
+}
+
+
+
+
+
+
+
+
+
