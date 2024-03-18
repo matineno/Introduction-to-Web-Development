@@ -21,7 +21,7 @@ main{
 
 .column {
     flex: 0 0  calc(33.3333333% - 13.3px);
-    max-width: calc(25px - 15px);
+    max-width: calc(20% - 10px);
     width: 200px;
     height: 200px;
     border-radius: 6px;
@@ -35,15 +35,15 @@ main{
 
 
 /* 768px and down  */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .column {
     flex: 0 0 calc(50% - 10px);
-    max-width: calc
+    max-width: calc(50% - 10px);
     }
 }
 
 /* 480px and down  */
-@media (max-width: 480px) {
+@media (max-width: 680px) {
     .column {
     flex: 0 0 100%;
     max-width: 100%;
